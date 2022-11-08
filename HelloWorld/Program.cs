@@ -12,6 +12,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello world. I am here and I want to learn every day!");
             Console.WriteLine("I am the clone!");
+            Console.WriteLine("Niklas' IQ > Papa's IQ");
             Console.ReadKey();
         }
     }
