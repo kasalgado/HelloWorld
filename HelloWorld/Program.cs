@@ -11,6 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world. I am here and I want to learn every day!");
+            Console.WriteLine("I am the clone!");
             Console.ReadKey();
         }
     }
