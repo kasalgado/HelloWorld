@@ -10,10 +10,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world. I am here and I want to learn every day!");
-            Console.WriteLine("I am the clone!");
-            Console.WriteLine("Niklas' IQ > Papa's IQ");
-            Console.ReadKey();
+            Counter counter = new Counter();
+            counter.counting();
+
+            TestClass testClass = new TestClass();
+            testClass.showAge();
+            testClass.sayHello();                     
         }
     }
 }
